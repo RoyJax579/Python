@@ -1,8 +1,12 @@
-radius = input("Input the radius of the circle: ")
+num1 = 1.234
+num2 = 4.32
 
-pi = 3.16
+#regular formatting
+print("Num 1 is", num1, "and num 2 is", num2)
 
-area = pi*float(radius)**2
+#using the format method
+print("Num 1 is {1:.2f} and num 2 is {0:.2f}".format(num1, num2))
 
-print("The area of your circle is ", area)
+#using f-string
+print(f"Num 1 is {num1:.4f} and num 2 is {num2}")
 
