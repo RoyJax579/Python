@@ -1,4 +1,4 @@
-class Planet:
+class Manet:
     #class attribute
     shape="round"
     def __init__(self, name):
